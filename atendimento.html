@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário de Atendimento</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        .menu ul {
+            display: flex;
+            list-style-type: none;
+            padding: 15px;
+            margin: 0;
+            background-color: #000000;
+            border-radius: 3px; /* Adiciona cantos arredondados */
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .menu li {
+            margin-right: 15px; /* Espaçamento entre os itens */
+        } 
+        .menu li:last-child {
+            margin-right: 0; /* Remove o espaçamento do último item */
+        }
+        .menu a {
+            text-decoration: none;
+            color: #ffffff; /* Cor do texto */
+            font-weight: bold; /* Negrito */
+        
+        }  
+        
+        .header {
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            padding: 30px;
+            background-color: #fdf9f9;
+            height: 200px;
+            background-image: url('file:///C:/Estudo%20Programa%C3%A7%C3%A3o/HTML/Pagina%20Clinica/006-Unik.webp');
+            margin-top: 10px;
+            background-position: center;
+            background-size: cover;
+            
+            
+        }
+
+        body {
+           font-family: Arial, sans-serif;
+           background-color: #ffffff;
+           max-width: 800px; /* Define a largura máxima como 800 pixels */
+           margin: 0 auto; /* Centraliza o corpo horizontalmente */
+           box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+
+        .content{
+            padding: 20px;
+    
+        }
+
+        .footer{
+            color: rgb(175, 175, 175);
+            background-color: rgb(0, 0, 0);
+            padding: 15px;
+    
+        }
+
+    strong {
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+      font-size: 24px; /* Ajuste o tamanho conforme necessário */
+      text-transform: uppercase;
+    }
+    span{
+        font-size: 24px;
+    }
+    table{
+            font-size: 20px;
+        }
+        /*table tr:nth-child(even){
+            background-color: darkgray;
+
+        }*/
+        table tr:hover td{
+            background-color: rgb(243, 243, 243);
+        }
+        table th{
+            background-color: rgb(0, 0, 0);
+            color: #fdf9f9;
+        }
+    
+
+    </style>
+</head>
+
+
+
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Clínica</a></li>
+                <li><a href="#">Horários</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+           
+            
+            </div>
+    
+            <div class="content">
+
+                <p><strong>Horário de Atendimento</strong></p>
+                <p>Pensando nisso, a <bold>UNIK ESTÉTICA AVANÇADA</bold>, <span>chegou ao Gama</span> para realçar a beleza com naturalidade e delicadeza. Com um atendimento individualizado e pautado em protocolos baseados em evidências científicas, dentro das normas de biossegurança e com total ética e respeito ao indivíduo. Oferece diversos procedimentos minimamente invasivos e depilação a laser, capazes de proporcionar saúde e bem estar de forma segura, eficiente e que visam recuperar a autoestima de mulheres e homens, com foco na individualidade de cada um. Alguns dos tratamentos que a <bold>UNIK</bold> oferece:</p>
+
+                <ul>
+                    <li><a >TOXINA BOTULÍNICA</a></li>
+                    <li><a >PREENCHIMENTO COM ÁCIDO HIALURÔNICO</a></li>
+                    <li><a >FIOS DE PDO</a></li>
+                    <li><a >SKINBOOSTER</a></li>
+                    <li><a >MICROAGULHAMENTO COM DRUG DELIVERY/a></li>
+                </ul>
+                
+                <p>Para quem procura por segurança, personalização e conforto na hora de cuidar da saúde da sua pele, o mais moderno método de depilação a laser estará disponível na <bold>UNIK ESTÉTICA AVANÇADA</bold>.</p>
+                
+                <table width="650" cellpadding="10">
+                    <thead>
+                      <tr>
+                        <th>Valor</th>
+                        <th>Serviços</th>
+                        <th>Segunda a Sexta</th>
+                        <th>Sábados</th>
+                        <th>Feriádos</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>R$ 45,00</td>
+                        <td>Clínica Geral</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 14h</td>
+                        <td>08h - 14h</td>
+                      </tr>
+                      <tr>
+                          <td>R$ 55,00</td>
+                          <td>Psicologia</td>
+                          <td>08h - 19h</td>
+                          <td>08h - 14h</td>
+                          <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td>R$ 45,00</td>
+                            <td>Pediatria</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>-- --</td>
+                        </tr>
+                        <tr>
+                            <td>R$ 43,00</td>
+                            <td>Oftomologia</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>-- --</td>
+                        </tr>              
+                    </tbody>
+                </table>
+        
+        
+    
+            </div>
+    
+            <div class="footer">
+                <footer class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <p>Endereço: Sua Rua, Número, Cidade - Estado</p>
+                                <p>Telefone: (XX) XXXX-XXXX</p>
+                                <p>Email: seu@email.com</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+                </footer>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
